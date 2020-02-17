@@ -14,9 +14,8 @@ import android.os.ParcelFileDescriptor;
 import android.support.annotation.NonNull;
 import android.util.Log;
 
-import com.app.server.BuildConfig;
-import com.app.server.R;
-
+import de.blinkt.openvpn.BuildConfig;
+import de.blinkt.openvpn.R;
 import de.blinkt.openvpn.VpnProfile;
 import de.blinkt.openvpn.core.VpnStatus.ConnectionStatus;
 

@@ -5,8 +5,7 @@
 
 package de.blinkt.openvpn.core;
 
-import com.app.server.R;
-
+import de.blinkt.openvpn.R;
 import de.blinkt.openvpn.VpnProfile;
 
 import java.net.InetSocketAddress;

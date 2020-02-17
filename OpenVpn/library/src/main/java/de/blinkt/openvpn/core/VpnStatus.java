@@ -9,7 +9,7 @@ import android.content.Context;
 import android.os.HandlerThread;
 import android.os.Message;
 
-import com.app.server.R;
+import de.blinkt.openvpn.R;
 
 import java.io.File;
 import java.io.PrintWriter;

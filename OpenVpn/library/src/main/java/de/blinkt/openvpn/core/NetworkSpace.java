@@ -8,7 +8,7 @@ package de.blinkt.openvpn.core;
 import android.os.Build;
 import android.support.annotation.NonNull;
 
-import com.app.server.BuildConfig;
+import de.blinkt.openvpn.BuildConfig;
 
 import junit.framework.Assert;
 
@@ -32,9 +32,8 @@ public class NetworkSpace {
 
 
         /**
-         * sorts the networks with following criteria:
-         * 1. compares first 1 of the network
-         * 2. smaller networks are returned as smaller
+         * sorts the networks with following criteria: 1. compares first 1 of the network 2. smaller
+         * networks are returned as smaller
          */
         @Override
         public int compareTo(@NonNull ipAddress another) {
@@ -167,7 +166,7 @@ public class NetworkSpace {
                 long part = r.mod(BigInteger.valueOf(0x10000)).longValue();
                 if (ipv6str != null || part != 0) {
                     if (ipv6str == null && !lastPart)
-                            ipv6str = ":";
+                        ipv6str = ":";
 
                     if (lastPart)
                         ipv6str = String.format(Locale.US, "%x", part, ipv6str);

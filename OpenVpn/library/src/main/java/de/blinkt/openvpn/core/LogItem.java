@@ -13,7 +13,7 @@ import android.content.pm.Signature;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import com.app.server.R;
+import de.blinkt.openvpn.R;
 
 import java.io.ByteArrayInputStream;
 import java.io.UnsupportedEncodingException;
@@ -28,7 +28,6 @@ import java.util.Arrays;
 import java.util.FormatFlagsConversionMismatchException;
 import java.util.Locale;
 import java.util.UnknownFormatConversionException;
-
 
 /**
  * Created by arne on 24.04.16.

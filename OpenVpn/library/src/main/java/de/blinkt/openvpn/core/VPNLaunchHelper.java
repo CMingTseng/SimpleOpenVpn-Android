@@ -10,8 +10,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 
-import com.app.server.R;
-
+import de.blinkt.openvpn.R;
 import de.blinkt.openvpn.VpnProfile;
 
 import java.io.File;

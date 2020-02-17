@@ -19,8 +19,6 @@ import android.support.annotation.NonNull;
 import android.text.TextUtils;
 import android.util.Base64;
 
-import com.app.server.R;
-
 import de.blinkt.openvpn.core.Connection;
 import de.blinkt.openvpn.core.NativeUtils;
 import de.blinkt.openvpn.core.OpenVPNService;

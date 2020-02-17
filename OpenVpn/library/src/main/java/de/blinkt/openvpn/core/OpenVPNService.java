@@ -34,9 +34,8 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.app.server.BuildConfig;
-import com.app.server.R;
-
+import de.blinkt.openvpn.BuildConfig;
+import de.blinkt.openvpn.R;
 import de.blinkt.openvpn.VpnProfile;
 import de.blinkt.openvpn.core.VpnStatus.ByteCountListener;
 import de.blinkt.openvpn.core.VpnStatus.ConnectionStatus;

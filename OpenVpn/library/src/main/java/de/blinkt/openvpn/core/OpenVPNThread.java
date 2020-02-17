@@ -8,8 +8,7 @@ package de.blinkt.openvpn.core;
 import android.annotation.SuppressLint;
 import android.util.Log;
 
-import com.app.server.R;
-
+import de.blinkt.openvpn.R;
 import de.blinkt.openvpn.core.VpnStatus.ConnectionStatus;
 
 import java.io.BufferedReader;

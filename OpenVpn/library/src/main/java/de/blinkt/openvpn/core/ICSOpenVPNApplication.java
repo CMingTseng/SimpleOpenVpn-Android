@@ -7,7 +7,8 @@ package de.blinkt.openvpn.core;
 
 import android.app.Application;
 
-import com.app.server.BuildConfig;
+import de.blinkt.openvpn.BuildConfig;
+
 
 
 /*
