@@ -1,4 +1,4 @@
-package com.app.server;
+package de.blinkt.openvpn;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

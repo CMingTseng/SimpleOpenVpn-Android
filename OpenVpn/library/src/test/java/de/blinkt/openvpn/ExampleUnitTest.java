@@ -1,4 +1,4 @@
-package com.app.server;
+package de.blinkt.openvpn;
 
 import org.junit.Test;
 
