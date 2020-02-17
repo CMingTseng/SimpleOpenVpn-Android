@@ -1,1 +1,6 @@
 include ':library'
+project(":library").projectDir = file("./library")
+include ':encoder_base64'
+project(":encoder_base64").projectDir = file("./base64encoder")
+include ':pem'
+project(":pem").projectDir = file("./pem")
